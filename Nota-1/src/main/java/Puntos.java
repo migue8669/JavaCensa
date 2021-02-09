@@ -11,7 +11,11 @@ public class Puntos {
 
         String[] nombre = new String[cantidadAlumnos];
         String AuxiliarNombre = "";
+<<<<<<< HEAD
         double[] nota1 = new double[cantidadAlumnos],nota2 = new double[cantidadAlumnos],nota3 = new double[cantidadAlumnos];
+=======
+        int[] nota1 = new int[cantidadAlumnos],nota2 = new int[cantidadAlumnos],nota3 = new int[cantidadAlumnos];
+>>>>>>> 89bea104badfa3ac81df9a8ac315781343b558b6
         double[] promedioAlumno=new double[cantidadAlumnos];
         double notaAlta = 0, acumuladorPromedios = 0,promedioGrupo=0,acumulador = 0;
 
@@ -19,11 +23,19 @@ public class Puntos {
             System.out.println("Ingrese nombre del alumno");
             nombre[i]=leer.next();
             System.out.println("Ingrese nota 1");
+<<<<<<< HEAD
             nota1[i]=leer.nextDouble();
             System.out.println("Ingrese nota 2");
             nota2[i]=leer.nextDouble();
             System.out.println("Ingrese nota 3");
             nota3[i]=leer.nextDouble();
+=======
+            nota1[i]=leer.nextInt();
+            System.out.println("Ingrese nota 2");
+            nota2[i]=leer.nextInt();
+            System.out.println("Ingrese nota 3");
+            nota3[i]=leer.nextInt();
+>>>>>>> 89bea104badfa3ac81df9a8ac315781343b558b6
             promedioAlumno[i]=nota1[i]+nota2[i]+nota3[i];
             acumuladorPromedios=promedioAlumno[i]/3;
             System.out.println("El promedio de notas del alumno "+nombre[i]+" es "+acumuladorPromedios);
@@ -39,6 +51,7 @@ public class Puntos {
         }
         System.out.println("El promedio del grupo es "+promedioGrupo/cantidadAlumnos);
         System.out.println("El alumno con la nota mas alta es "+AuxiliarNombre+" su nota promedio fue "+notaAlta);
+<<<<<<< HEAD
     punto2();
     }
     static void punto2(){
@@ -77,5 +90,7 @@ public class Puntos {
         System.out.println("El total de ventas con un solo articulo es "+totalVentas);
 
 
+=======
+>>>>>>> 89bea104badfa3ac81df9a8ac315781343b558b6
     }
 }
