@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Punto3 {
+public class Punto1 {
     public static void main (String [ ] args) {
         String cadena = "Centro de sistemas de antioquia";
         int a = 0, e = 0, i = 0, o = 0, u = 0;
